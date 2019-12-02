@@ -1,0 +1,10 @@
+{
+	"srcDir": "c:\\temp\\source",
+	"dstDir": "c:\\temp\\destination",
+	"arcDir": "c:\\temp\\archive",
+	"logFile": "c:\\temp\\pdf-splitter.log",
+	"numPages": 5,
+	"threshold": 7,
+	"loopTime": 30,
+	"fileExtensions": [".pdf", ".pdfx"]
+}
