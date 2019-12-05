@@ -15,7 +15,7 @@ def check_password(pw: int) -> bool:
     if re.search(rx, str(pw)) == None:
         return False
 
-    #Confirm all numbers increase and there's a group of exactly two
+    #Confirm all numbers increase
     last_i = str(pw)[0]
     for i in str(pw)[1:]:
         if i < last_i:
